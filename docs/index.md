@@ -1,4 +1,4 @@
-[Static Page](./docs/static.html){: .btn .mr-4 .fs-10 .fw-500}   [News Section](./docs/news.html){: .btn  .mr-4 .fs-10 .fw-500}
+[Static Page](./docs/static.md){: .btn .mr-4 .fs-10 .fw-500}   [News Section](./docs/news.md){: .btn  .mr-4 .fs-10 .fw-500}
 
 # Installation 
 
