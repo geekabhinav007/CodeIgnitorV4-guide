@@ -1,3 +1,5 @@
+[Static Page](./docs/static.html){: .btn .mr-4 .fs-10 .fw-500}   [News Section](./docs/news.html){: .btn  .mr-4 .fs-10 .fw-500}
+
 # Installation 
 
 - Install lampp using Following commands:
