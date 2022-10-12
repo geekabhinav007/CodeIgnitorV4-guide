@@ -9,10 +9,10 @@ sudo apt-get install lamp-server^
 2. Installation of some dependencies (Server Requirement):
 
 ```console
-sudo apt-get -Y install php-intl
-                     php-mbstring
-                     php-json
-                     php-mysqlnd
-                     php-xml
+sudo apt-get -y install php-intl\
+                     php-mbstring\
+                     php-json\
+                     php-mysqlnd\
+                     php-xml\
                      php-curl
 ```
