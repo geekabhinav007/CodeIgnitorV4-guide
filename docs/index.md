@@ -37,7 +37,7 @@ ls
 - Now you can see you have following file and folder under ci folder.
 
 
-![terminal image](/img/intialDirectory.png)
+[https://github.com/geekabhinav007/CodeIgnitorV4-guide/blob/main/img/intialDirectory.png](https://github.com/geekabhinav007/CodeIgnitorV4-guide/blob/main/img/intialDirectory.png)
 
 ## Intial Configuration
 
@@ -58,7 +58,7 @@ sudo chmod -R 777 writable/
 - if you are not able to see Welcome page like below at `http://localhost/ci/public`
 then restart your server by using following command:
 
-![WelcomePage](/img/Welcomepage.png)
+[https://github.com/geekabhinav007/CodeIgnitorV4-guide/blob/main/img/Welcomepage.png](https://github.com/geekabhinav007/CodeIgnitorV4-guide/blob/main/img/Welcomepage.png)
 
 
 ```console
