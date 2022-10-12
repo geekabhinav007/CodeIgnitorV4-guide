@@ -36,6 +36,9 @@ ls
 
 - Now you can see you have following file and folder under ci folder.
 
+
+![terminal image](/img/intialDirectory.png)
+
 ## Intial Configuration
 
 - Open the app/Config/App.php comment out baseURL at line 27 and add new base url as following:
@@ -54,6 +57,9 @@ sudo chmod -R 777 writable/
 ```
 - if you are not able to see Welcome page like below at `http://localhost/ci/public`
 then restart your server by using following command:
+
+![WelcomePage](/img/Welcomepage.png)
+
 
 ```console
 sudo systemctl restart apache2.service
