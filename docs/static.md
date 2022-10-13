@@ -135,4 +135,20 @@ class Pages extends BaseController
     }
 }
 ```
+- Now made change in Routing:
+
+```console
+cd
+cd /var/www/html/ci/app/Config/
+```
+- Edit `Route.php` and add below two line after line 38.
+
+```php
+$routes->get('pages', 'Pages::index');
+$routes->get('(:any)', 'Pages::view/$1');
+```
+
+- Now visit `localhost/ci/public/index.php/home` and `localhost/ci/public/index.php/about` if you see the home page and about page then work is done. you have your static page now you can add anything in place of hello word and publish on localhost.
+ 
+### Happy Learning
 
