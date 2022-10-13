@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+
+[Home](./index.html){: .btn .fs-10 .mr-4}
+
 # Static Pages Tutorial
 
 This tutorial assumes you’ve downloaded CodeIgniter and installed the framework in your development environment.
@@ -109,11 +111,3 @@ echo "Hello World"
 echo" Hello World I am about page ";
 ?>
 ```
-
-
-
-=======
-[Home](./index.html){: .btn .fs-10 .mr-4}
-
-# static page
->>>>>>> origin
