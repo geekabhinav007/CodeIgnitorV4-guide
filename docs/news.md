@@ -143,7 +143,9 @@ public function view($slug = null)
     }
 ```
 - Create a file name `overview.php` at location `app/Views/news/` and add following code to overview.php file:
+
 ```php
+
 <h2><?= esc($title) ?></h2>
 
 <?php if (! empty($news) && is_array($news)): ?>
@@ -167,13 +169,17 @@ public function view($slug = null)
 
 <?php endif ?>
 ```
+
 - Create a file `view.php` under `app/Views/news/` and add following code in the file `view.php`.
+
 ```php
 <h2><?= esc($news['title']) ?></h2>
 <p><?= esc($news['body']) ?></p>
 ```
+
 - Now change the Routing file under Config folder.
 - Navigate to `app/Config/` and open `Routes.php` file using following command:
+
 ```shell
 gedit Routes.php
 ```
