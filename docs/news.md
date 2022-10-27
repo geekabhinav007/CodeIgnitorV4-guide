@@ -11,7 +11,7 @@
  ```sql
  sudo mysql
  
- CREATE USER ‘ci’@’localhost’ IDENTIFIED BY ‘abc’;
+ CREATE USER 'ci'@'localhost' IDENTIFIED BY 'abc';
  
  GRANT ALL ON *.* TO 'ci'@'localhost' WITH GRANT OPTION;
  ```
