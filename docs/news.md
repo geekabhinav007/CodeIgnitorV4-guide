@@ -13,7 +13,9 @@
  
  CREATE USER 'ci'@'localhost' IDENTIFIED BY 'abc';
  
- GRANT ALL PRIVILEGES ON *.* TO 'ci'@'localhost' WITH GRANT OPTION;
+ GRANT ALL PRIVILEGES ON *.* TO 'ci'@'localhost';
+
+ FLUSH PRIVILEGES;
  ```
  - Create database and create table by following query:
  
